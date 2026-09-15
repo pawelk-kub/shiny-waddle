@@ -17,4 +17,4 @@ jobs:
   output_parameters:
     runs-on: ubuntu-slim
     steps:
-      -run: echo Hello world!
+      -run: echo "Hello world!"
