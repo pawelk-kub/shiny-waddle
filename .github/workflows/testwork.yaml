@@ -1,0 +1,20 @@
+name: testwork
+run-name: testwork ${{ github.run_number }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      param1:
+        description: param1
+        type: string
+        default: "param1 value"
+      param2:
+        description: param2
+        type: string
+        default: "param2 value"
+
+jobs:
+  output_parameters:
+    runs-on: ubuntu-slim
+    steps:
+      -run: echo Hello world!
