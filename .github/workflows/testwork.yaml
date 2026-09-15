@@ -12,6 +12,46 @@ on:
         description: param2
         type: string
         default: "param2 value"
+      param1:
+        description: param3
+        type: string
+        default: "param3 value"
+      param2:
+        description: param4
+        type: string
+        default: "param4 value"
+      param1:
+        description: param5
+        type: string
+        default: "param5 value"
+      param2:
+        description: param6
+        type: string
+        default: "param6 value"
+      param1:
+        description: param7
+        type: string
+        default: "param7 value"
+      param2:
+        description: param8
+        type: string
+        default: "param8 value"
+      param1:
+        description: param9
+        type: string
+        default: "param9 value"
+      param2:
+        description: param10
+        type: string
+        default: "param10 value"
+      param1:
+        description: param11
+        type: string
+        default: "param11 value"
+      param2:
+        description: param12
+        type: string
+        default: "param12 value"
 
 jobs:
   output_parameters:
@@ -24,3 +64,13 @@ jobs:
         run: |
           echo Parameter 1 is ${{ inputs.param1 }}
           echo Parameter 2 is ${{ inputs.param2 }}
+          echo Parameter 3 is ${{ inputs.param3 }}
+          echo Parameter 4 is ${{ inputs.param4 }}
+          echo Parameter 5 is ${{ inputs.param5 }}
+          echo Parameter 6 is ${{ inputs.param6 }}
+          echo Parameter 7 is ${{ inputs.param7 }}
+          echo Parameter 8 is ${{ inputs.param8 }}
+          echo Parameter 9 is ${{ inputs.param9 }}
+          echo Parameter 10 is ${{ inputs.param10 }}
+          echo Parameter 11 is ${{ inputs.param11 }}
+          echo Parameter 12 is ${{ inputs.param12 }}
