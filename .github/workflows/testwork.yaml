@@ -104,6 +104,26 @@ on:
         description: param25
         type: string
         default: "param25 value"
+      param26:
+        description: param26
+        type: string
+        default: "param26 value"
+      param27:
+        description: param27
+        type: string
+        default: "param27 value"
+      param28:
+        description: param28
+        type: string
+        default: "param28 value"
+      param29:
+        description: param29
+        type: string
+        default: "param29 value"
+      param30:
+        description: param30
+        type: string
+        default: "param30 value"
 
 jobs:
   output_parameters:
@@ -139,3 +159,8 @@ jobs:
           echo Parameter 23 is ${{ inputs.param23 }}
           echo Parameter 24 is ${{ inputs.param24 }}
           echo Parameter 25 is ${{ inputs.param25 }}
+          echo Parameter 26 is ${{ inputs.param26 }}
+          echo Parameter 27 is ${{ inputs.param27 }}
+          echo Parameter 28 is ${{ inputs.param28 }}
+          echo Parameter 29 is ${{ inputs.param29 }}
+          echo Parameter 30 is ${{ inputs.param30 }}
