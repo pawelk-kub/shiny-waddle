@@ -19,3 +19,8 @@ jobs:
     steps:
       - name: Hello World
         run: echo "Hello world!"
+      
+      - name: Output Parameters
+        run: |
+          echo Parameter 1 is ${{ inputs.param1 }}
+          echo Parameter 2 is ${{ inputs.param2 }}
