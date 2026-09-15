@@ -52,6 +52,58 @@ on:
         description: param12
         type: string
         default: "param12 value"
+      param13:
+        description: param13
+        type: string
+        default: "param13 value"
+      param14:
+        description: param14
+        type: string
+        default: "param14 value"
+      param15:
+        description: param15
+        type: string
+        default: "param15 value"
+      param16:
+        description: param16
+        type: string
+        default: "param16 value"
+      param17:
+        description: param17
+        type: string
+        default: "param17 value"
+      param18:
+        description: param18
+        type: string
+        default: "param18 value"
+      param19:
+        description: param19
+        type: string
+        default: "param19 value"
+      param20:
+        description: param20
+        type: string
+        default: "param20 value"
+      param21:
+        description: param21
+        type: string
+        default: "param21 value"
+      param22:
+        description: param22
+        type: string
+        default: "param22 value"
+      param23:
+        description: param23
+        type: string
+        default: "param23 value"
+      param24:
+        description: param24
+        type: string
+        default: "param24 value"
+      param25:
+        description: param25
+        type: string
+        default: "param25 value"
 
 jobs:
   output_parameters:
@@ -74,3 +126,16 @@ jobs:
           echo Parameter 10 is ${{ inputs.param10 }}
           echo Parameter 11 is ${{ inputs.param11 }}
           echo Parameter 12 is ${{ inputs.param12 }}
+          echo Parameter 13 is ${{ inputs.param13 }}
+          echo Parameter 14 is ${{ inputs.param14 }}
+          echo Parameter 15 is ${{ inputs.param15 }}
+          echo Parameter 16 is ${{ inputs.param16 }}
+          echo Parameter 17 is ${{ inputs.param17 }}
+          echo Parameter 18 is ${{ inputs.param18 }}
+          echo Parameter 19 is ${{ inputs.param19 }}
+          echo Parameter 20 is ${{ inputs.param20 }}
+          echo Parameter 21 is ${{ inputs.param21 }}
+          echo Parameter 22 is ${{ inputs.param22 }}
+          echo Parameter 23 is ${{ inputs.param23 }}
+          echo Parameter 24 is ${{ inputs.param24 }}
+          echo Parameter 25 is ${{ inputs.param25 }}
